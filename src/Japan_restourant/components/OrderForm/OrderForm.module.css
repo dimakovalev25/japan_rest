@@ -1,0 +1,74 @@
+.orderForm {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.orderForm input {
+    border-color: #f58766;
+    height: 2.3rem;
+    width: 15rem;
+    border-radius: 23px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.orderFormInput {
+    border-color: #f58766;
+    height: 2.3rem;
+    width: 15rem;
+    border-radius: 23px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.orderFormInputInvalid {
+    border: 1px solid #de4f1e;
+    background-color: #e3caca
+
+}
+
+.orderForm input-invalid {
+    border: 1px solid #de4f1e;
+    background-color: #e3caca
+
+}
+
+.orderForm button {
+    font: inherit;
+    height: 2.3rem;
+    width: 15rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #f58766;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    color: #f58766;
+}
+
+.orderForm span {
+    color: red;
+    margin-left: 30px;
+}
+
+.orderForm button:hover,
+.orderForm button:active {
+    background-color: #de4f1e;
+    border-color: #de4f1e;
+    color: white;
+}
+
+.orderForm .button--alt {
+    color: #f58766;
+}
+
+.orderForm .button {
+    background-color: #de4f1e;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input {
+    font: inherit;
+    padding: 0.3rem;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    flex: 2;
+    margin-right: 2rem;
+}
+
+.inputPrice {
+    width: 12px;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #0ab2ea;
+}
+
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #ff8c69;
+    border: 1px solid #ff8c69;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}

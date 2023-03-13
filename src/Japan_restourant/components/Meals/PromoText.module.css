@@ -1,0 +1,23 @@
+.promo-text {
+  text-align: center;
+  max-width: 50rem;
+  width: 100%;
+  margin: auto;
+  margin-top: -3rem;
+  position: relative;
+  background-color: #ee8c6d;
+  color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 1px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.promo-text h2 {
+  font-size: 4rem;
+  margin-top: 5px;
+
+}
+
+.promo-text p{
+  font-size: 20px;
+}
